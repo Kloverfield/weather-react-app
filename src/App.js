@@ -8,6 +8,14 @@ export default function App() {
     <div className="App">
       <h1>Weather App</h1>
       <Search />
+      <h4>
+        This site was coded by{" "}
+        <a href="https://gleaming-dragon-c67369.netlify.app/">
+          Beatrice Rodehav
+        </a>{" "}
+        and is open-source at{" "}
+        <a href="https://github.com/Kloverfield/weather-react-app">Github</a>
+      </h4>
     </div>
   );
 }
